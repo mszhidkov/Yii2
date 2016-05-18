@@ -54,10 +54,6 @@ class SiteController extends Controller
 
     public function actionLogin()
     {
-        var_dump('asd');
-        var_dump('asd');
-        var_dump('asd');
-        var_dump('asd');
         if (!\Yii::$app->user->isGuest) {
             return $this->goHome();
         }
