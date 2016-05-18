@@ -56,6 +56,8 @@ class SiteController extends Controller
     {
         var_dump('asd');
         var_dump('asd');
+        var_dump('asd');
+        var_dump('asd');
         if (!\Yii::$app->user->isGuest) {
             return $this->goHome();
         }
